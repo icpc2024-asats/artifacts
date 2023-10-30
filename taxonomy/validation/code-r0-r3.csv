@@ -1,0 +1,9 @@
+rule;snippet;r0;r3
+postfixOperator;S1;What;What
+no-nonoctal-decimal-escape;S1;What;What
+no-nonoctal-decimal-escape;S2;What;What
+no-nonoctal-decimal-escape;S3;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;S1;What;What
+CompareWithEmptyStringEfficientlyRule;S2;Fix;Fix
+Accessing Android external storage is security-sensitive;S1;What;What
+Accessing Android external storage is security-sensitive;S2;Fix;Fix

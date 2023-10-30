@@ -1,0 +1,279 @@
+rule;token;r0;r1
+SQL Injection;Injection;What;Why
+SQL Injection;is;What;Why
+SQL Injection;#1;What;Why
+SQL Injection;on;What;Why
+SQL Injection;the;What;Why
+SQL Injection;2010;What;Why
+SQL Injection;OWASP;What;Why
+SQL Injection;Top;What;Why
+SQL Injection;Ten;What;Why
+SQL Injection;web;What;Why
+SQL Injection;security;What;Why
+SQL Injection;risks.;What;Why
+SQL Injection;SQL;What;Why
+SQL Injection;injection;What;Why
+SQL Injection;is;What;Why
+SQL Injection;when;What;Why
+SQL Injection;a;What;Why
+SQL Injection;user;What;Why
+SQL Injection;is;What;Why
+SQL Injection;able;What;Why
+SQL Injection;to;What;Why
+SQL Injection;manipulate;What;Why
+SQL Injection;a;What;Why
+SQL Injection;value;What;Why
+SQL Injection;which;What;Why
+SQL Injection;is;What;Why
+SQL Injection;used;What;Why
+SQL Injection;unsafely;What;Why
+SQL Injection;inside;What;Why
+SQL Injection;a;What;Why
+SQL Injection;SQL;What;Why
+SQL Injection;query.;What;Why
+SQL Injection;This;Why;Why
+SQL Injection;can;Why;Why
+SQL Injection;lead;Why;Why
+SQL Injection;to;Why;Why
+SQL Injection;data;Why;Why
+SQL Injection;leaks,;Why;Why
+SQL Injection;data;Why;Why
+SQL Injection;loss,;Why;Why
+SQL Injection;elevation;Why;Why
+SQL Injection;of;Why;Why
+SQL Injection;privilege,;Why;Why
+SQL Injection;and;Why;Why
+SQL Injection;other;Why;Why
+SQL Injection;unpleasant;Why;Why
+SQL Injection;outcomes.;Why;Why
+SQL Injection;Brakeman;What;What
+SQL Injection;focuses;What;What
+SQL Injection;on;What;What
+SQL Injection;ActiveRecord;What;What
+SQL Injection;methods;What;What
+SQL Injection;dealing;What;What
+SQL Injection;with;What;What
+SQL Injection;building;What;What
+SQL Injection;SQL;What;What
+SQL Injection;statements.;What;What
+SQL Injection;A;What;What
+SQL Injection;basic;What;What
+SQL Injection;(Rails;What;What
+SQL Injection;2.x);What;What
+SQL Injection;example;What;What
+SQL Injection;looks;What;What
+SQL Injection;like;What;What
+SQL Injection;this:;What;What
+SQL Injection;Brakeman;What;What
+SQL Injection;would;What;What
+SQL Injection;produce;What;What
+SQL Injection;a;What;What
+SQL Injection;warning;What;What
+SQL Injection;like;What;What
+SQL Injection;this:;What;What
+SQL Injection;Possible;What;What
+SQL Injection;SQL;What;What
+SQL Injection;injection;What;What
+SQL Injection;near;What;What
+SQL Injection;line;What;What
+SQL Injection;30:;What;What
+SQL Injection;"Possible SQL injection near line 30: User.first(:conditions => (""username = '#{params[:username]}'""))";What;What
+SQL Injection;The;Fix;Fix
+SQL Injection;safe;Fix;Fix
+SQL Injection;way;Fix;Fix
+SQL Injection;to;Fix;Fix
+SQL Injection;do;Fix;Fix
+SQL Injection;this;Fix;Fix
+SQL Injection;query;Fix;Fix
+SQL Injection;is;Fix;Fix
+SQL Injection;to;Fix;Fix
+SQL Injection;use;Fix;Fix
+SQL Injection;a;Fix;Fix
+SQL Injection;parameterized;Fix;Fix
+SQL Injection;query:;Fix;Fix
+SQL Injection;Brakeman;What;What
+SQL Injection;also;What;What
+SQL Injection;understands;What;What
+SQL Injection;the;What;What
+SQL Injection;new;What;What
+SQL Injection;Rails;What;What
+SQL Injection;3.x;What;What
+SQL Injection;way;What;What
+SQL Injection;of;What;What
+SQL Injection;doing;What;What
+SQL Injection;things;What;What
+SQL Injection;(and;What;What
+SQL Injection;local;What;What
+SQL Injection;variables;What;What
+SQL Injection;and;What;What
+SQL Injection;concatentation):;What;What
+SQL Injection;This;What;What
+SQL Injection;results;What;What
+SQL Injection;in;What;What
+SQL Injection;this;What;What
+SQL Injection;kind;What;What
+SQL Injection;of;What;What
+SQL Injection;warning:;What;What
+SQL Injection;Possible;What;What
+SQL Injection;SQL;What;What
+SQL Injection;injection;What;What
+SQL Injection;near;What;What
+SQL Injection;line;What;What
+SQL Injection;37:;What;What
+SQL Injection;"User.first.where(((((""username = '"" + params[:user][:name].downcase) + ""' AND password = '"") + params[:user][:password]) + ""'""))";What;What
+SQL Injection;See;What;Why
+SQL Injection;for;What;Why
+SQL Injection;more;What;Why
+SQL Injection;information;What;Why
+SQL Injection;and;What;Why
+SQL Injection;for;What;Why
+SQL Injection;many;What;Why
+SQL Injection;examples;What;Why
+SQL Injection;of;What;Why
+SQL Injection;SQL;What;Why
+SQL Injection;injection;What;Why
+SQL Injection;in;What;Why
+SQL Injection;Rails.;What;Why
+ForLoopShouldBeWhileLoop;Under;What;Why
+ForLoopShouldBeWhileLoop;certain;What;Why
+ForLoopShouldBeWhileLoop;circumstances,;What;Why
+ForLoopShouldBeWhileLoop;some;What;Why
+ForLoopShouldBeWhileLoop;for;What;Why
+ForLoopShouldBeWhileLoop;loops;What;Why
+ForLoopShouldBeWhileLoop;can;Fix;Why
+ForLoopShouldBeWhileLoop;be;Fix;Why
+ForLoopShouldBeWhileLoop;simplified;Fix;Why
+ForLoopShouldBeWhileLoop;to;Fix;Why
+ForLoopShouldBeWhileLoop;while;Fix;Why
+ForLoopShouldBeWhileLoop;loops;Fix;Why
+ForLoopShouldBeWhileLoop;to;Why;Why
+ForLoopShouldBeWhileLoop;make;Why;Why
+ForLoopShouldBeWhileLoop;code;Why;Why
+ForLoopShouldBeWhileLoop;more;Why;Why
+ForLoopShouldBeWhileLoop;concise.;Why;Why
+ForLoopShouldBeWhileLoop;This;What;What
+ForLoopShouldBeWhileLoop;rule;What;What
+ForLoopShouldBeWhileLoop;is;What;What
+ForLoopShouldBeWhileLoop;defined;What;What
+ForLoopShouldBeWhileLoop;by;What;What
+ForLoopShouldBeWhileLoop;the;What;What
+ForLoopShouldBeWhileLoop;following;What;What
+ForLoopShouldBeWhileLoop;class:;What;What
+ForLoopShouldBeWhileLoop;oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp;What;What
+consider-using-generator;If;What;Why
+consider-using-generator;your;What;Why
+consider-using-generator;container;What;Why
+consider-using-generator;can;What;Why
+consider-using-generator;be;What;Why
+consider-using-generator;large;What;Why
+consider-using-generator;using;Fix;Why
+consider-using-generator;a;Fix;Why
+consider-using-generator;generator;Fix;Why
+consider-using-generator;will;Why;Why
+consider-using-generator;bring;Why;Why
+consider-using-generator;better;Why;Why
+consider-using-generator;performance.;Why;Why
+consider-using-generator;Removing;Fix;Why
+consider-using-generator;[];Fix;Why
+consider-using-generator;inside;What;Why
+consider-using-generator;calls;What;Why
+consider-using-generator;that;What;Why
+consider-using-generator;can;What;Why
+consider-using-generator;use;What;Why
+consider-using-generator;containers;What;Why
+consider-using-generator;or;What;Why
+consider-using-generator;generators;What;Why
+consider-using-generator;should;Why;Why
+consider-using-generator;be;Why;Why
+consider-using-generator;considered;Why;Why
+consider-using-generator;for;Why;Why
+consider-using-generator;performance;Why;Why
+consider-using-generator;reasons;Why;Why
+consider-using-generator;since;Why;Why
+consider-using-generator;a;Why;Why
+consider-using-generator;generator;Why;Why
+consider-using-generator;will;Why;Why
+consider-using-generator;have;Why;Why
+consider-using-generator;an;Why;Why
+consider-using-generator;upfront;Why;Why
+consider-using-generator;cost;Why;Why
+consider-using-generator;to;Why;Why
+consider-using-generator;pay.;Why;Why
+consider-using-generator;The;Why;Why
+consider-using-generator;performance;Why;Why
+consider-using-generator;will;Why;Why
+consider-using-generator;be;Why;Why
+consider-using-generator;better;Why;Why
+consider-using-generator;if;Why;Why
+consider-using-generator;you;Why;Why
+consider-using-generator;are;Why;Why
+consider-using-generator;working;Why;Why
+consider-using-generator;with;Why;Why
+consider-using-generator;long;Why;Why
+consider-using-generator;lists;Why;Why
+consider-using-generator;or;Why;Why
+consider-using-generator;sets.;Why;Why
+consider-using-generator;For;What;Why
+consider-using-generator;max;What;Why
+consider-using-generator;,;What;Why
+consider-using-generator;min;What;Why
+consider-using-generator;and;What;Why
+consider-using-generator;sum;What;Why
+consider-using-generator;using;Fix;Why
+consider-using-generator;a;Fix;Why
+consider-using-generator;generator;Fix;Why
+consider-using-generator;is;Why;Why
+consider-using-generator;also;Why;Why
+consider-using-generator;recommended;Why;Why
+consider-using-generator;by;Why;Why
+consider-using-generator;pep289.;Why;Why
+JWT should be signed and verified with strong cipher algorithms;If;What;Why
+JWT should be signed and verified with strong cipher algorithms;a;What;Why
+JWT should be signed and verified with strong cipher algorithms;JSON;What;Why
+JWT should be signed and verified with strong cipher algorithms;Web;What;Why
+JWT should be signed and verified with strong cipher algorithms;Token;What;Why
+JWT should be signed and verified with strong cipher algorithms;(JWT);What;Why
+JWT should be signed and verified with strong cipher algorithms;is;What;Why
+JWT should be signed and verified with strong cipher algorithms;not;What;Why
+JWT should be signed and verified with strong cipher algorithms;signed;What;Why
+JWT should be signed and verified with strong cipher algorithms;with;What;Why
+JWT should be signed and verified with strong cipher algorithms;a;What;Why
+JWT should be signed and verified with strong cipher algorithms;strong;What;Why
+JWT should be signed and verified with strong cipher algorithms;cipher;What;Why
+JWT should be signed and verified with strong cipher algorithms;algorithm;What;Why
+JWT should be signed and verified with strong cipher algorithms;(or;What;Why
+JWT should be signed and verified with strong cipher algorithms;not;What;Why
+JWT should be signed and verified with strong cipher algorithms;signed;What;Why
+JWT should be signed and verified with strong cipher algorithms;at;What;Why
+JWT should be signed and verified with strong cipher algorithms;all);What;Why
+JWT should be signed and verified with strong cipher algorithms;an;Why;Why
+JWT should be signed and verified with strong cipher algorithms;attacker;Why;Why
+JWT should be signed and verified with strong cipher algorithms;can;Why;Why
+JWT should be signed and verified with strong cipher algorithms;forge;Why;Why
+JWT should be signed and verified with strong cipher algorithms;it;Why;Why
+JWT should be signed and verified with strong cipher algorithms;and;Why;Why
+JWT should be signed and verified with strong cipher algorithms;impersonate;Why;Why
+JWT should be signed and verified with strong cipher algorithms;user;Why;Why
+JWT should be signed and verified with strong cipher algorithms;identities.;Why;Why
+JWT should be signed and verified with strong cipher algorithms;Don’t;Fix;What
+JWT should be signed and verified with strong cipher algorithms;use;Fix;What
+JWT should be signed and verified with strong cipher algorithms;none;Fix;What
+JWT should be signed and verified with strong cipher algorithms;algorithm;Fix;What
+JWT should be signed and verified with strong cipher algorithms;to;Fix;What
+JWT should be signed and verified with strong cipher algorithms;sign;Fix;What
+JWT should be signed and verified with strong cipher algorithms;or;Fix;What
+JWT should be signed and verified with strong cipher algorithms;verify;Fix;What
+JWT should be signed and verified with strong cipher algorithms;the;Fix;What
+JWT should be signed and verified with strong cipher algorithms;validity;Fix;What
+JWT should be signed and verified with strong cipher algorithms;of;Fix;What
+JWT should be signed and verified with strong cipher algorithms;a;Fix;What
+JWT should be signed and verified with strong cipher algorithms;token.;Fix;What
+JWT should be signed and verified with strong cipher algorithms;Don’t;Fix;What
+JWT should be signed and verified with strong cipher algorithms;use;Fix;What
+JWT should be signed and verified with strong cipher algorithms;a;Fix;What
+JWT should be signed and verified with strong cipher algorithms;token;Fix;What
+JWT should be signed and verified with strong cipher algorithms;without;Fix;What
+JWT should be signed and verified with strong cipher algorithms;verifying;Fix;What
+JWT should be signed and verified with strong cipher algorithms;its;Fix;What
+JWT should be signed and verified with strong cipher algorithms;signature;Fix;What
+JWT should be signed and verified with strong cipher algorithms;before.;Fix;What

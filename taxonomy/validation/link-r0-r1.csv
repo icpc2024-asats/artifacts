@@ -1,0 +1,13 @@
+rule;link;r0;r1
+SQL Injection;OWASP Top Ten;What;Why
+SQL Injection;the Ruby Security Guide;"What, Why, Fix";Why
+SQL Injection;Rails-SQLi.org;What;Why
+ForLoopShouldBeWhileLoop;oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp ;What;What
+consider-using-generator;PEP 289;"What, Why, Fix";Why
+consider-using-generator;Benchmark and discussion for any/all/list/tuple;Why;Why
+consider-using-generator;Benchmark and discussion for sum/max/min;Why;Why
+JWT should be signed and verified with strong cipher algorithms;jsonwebtoken;What;What
+JWT should be signed and verified with strong cipher algorithms;jsonwebtoken;What;Fix
+JWT should be signed and verified with strong cipher algorithms;OWASP Top 10 2021 Category A2 - Cryptographic Failures;"What, Why, Fix";Why
+JWT should be signed and verified with strong cipher algorithms;OWASP Top 10 2017 Category A3 - Sensitive Data Exposure;"What, Why, Fix";Why
+JWT should be signed and verified with strong cipher algorithms;"MITRE; CWE-347 - Improper Verification of Cryptographic Signature";"What, Why";Why

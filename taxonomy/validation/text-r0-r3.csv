@@ -1,0 +1,429 @@
+rule;token;r0;r3
+postfixOperator;Prefix;What;Fix
+postfixOperator;++/--;What;Fix
+postfixOperator;operators;What;Fix
+postfixOperator;should;What;Fix
+postfixOperator;be;What;Fix
+postfixOperator;preferred;What;Fix
+postfixOperator;for;What;Fix
+postfixOperator;non-primitive;What;Fix
+postfixOperator;types.;What;Fix
+postfixOperator;Pre-increment/decrement;Why;Fix
+postfixOperator;can;Why;Why
+postfixOperator;be;Why;Why
+postfixOperator;more;Why;Why
+postfixOperator;efficient;Why;Why
+postfixOperator;than;Why;Why
+postfixOperator;post-increment/decrement.;Why;What
+postfixOperator;Post-increment/decrement;Why;What
+postfixOperator;usually;Why;Why
+postfixOperator;involves;Why;Why
+postfixOperator;keeping;Why;Why
+postfixOperator;a;Why;Why
+postfixOperator;copy;Why;Why
+postfixOperator;of;Why;Why
+postfixOperator;the;Why;Why
+postfixOperator;previous;Why;Why
+postfixOperator;value;Why;Why
+postfixOperator;around;Why;Why
+postfixOperator;and;Why;Why
+postfixOperator;adds;Why;Why
+postfixOperator;a;Why;Why
+postfixOperator;little;Why;Why
+postfixOperator;extra;Why;Why
+postfixOperator;code.;Why;Why
+no-nonoctal-decimal-escape;Disallow;What;Fix
+no-nonoctal-decimal-escape;\8;What;What
+no-nonoctal-decimal-escape;and;What;What
+no-nonoctal-decimal-escape;\9;What;What
+no-nonoctal-decimal-escape;escape;What;What
+no-nonoctal-decimal-escape;sequences;What;What
+no-nonoctal-decimal-escape;in;What;What
+no-nonoctal-decimal-escape;string;What;What
+no-nonoctal-decimal-escape;literals;What;What
+no-nonoctal-decimal-escape;Although;What;What
+no-nonoctal-decimal-escape;not;What;What
+no-nonoctal-decimal-escape;being;What;What
+no-nonoctal-decimal-escape;specified;What;What
+no-nonoctal-decimal-escape;in;What;What
+no-nonoctal-decimal-escape;the;What;What
+no-nonoctal-decimal-escape;language;What;What
+no-nonoctal-decimal-escape;until;What;What
+no-nonoctal-decimal-escape;ECMAScript;What;What
+no-nonoctal-decimal-escape;2021;What;What
+no-nonoctal-decimal-escape;\8;What;What
+no-nonoctal-decimal-escape;and;What;What
+no-nonoctal-decimal-escape;\9;What;What
+no-nonoctal-decimal-escape;escape;What;What
+no-nonoctal-decimal-escape;sequences;What;What
+no-nonoctal-decimal-escape;in;What;What
+no-nonoctal-decimal-escape;string;What;What
+no-nonoctal-decimal-escape;literals;What;What
+no-nonoctal-decimal-escape;were;What;What
+no-nonoctal-decimal-escape;allowed;What;What
+no-nonoctal-decimal-escape;in;What;What
+no-nonoctal-decimal-escape;most;What;What
+no-nonoctal-decimal-escape;JavaScript;What;What
+no-nonoctal-decimal-escape;engines,;What;What
+no-nonoctal-decimal-escape;and;What;What
+no-nonoctal-decimal-escape;treated;What;What
+no-nonoctal-decimal-escape;as;What;What
+no-nonoctal-decimal-escape;“useless”;What;What
+no-nonoctal-decimal-escape;escapes:;What;What
+no-nonoctal-decimal-escape;Since;What;What
+no-nonoctal-decimal-escape;ECMAScript;What;What
+no-nonoctal-decimal-escape;2021;What;What
+no-nonoctal-decimal-escape;these;What;What
+no-nonoctal-decimal-escape;escape;What;What
+no-nonoctal-decimal-escape;sequences;What;What
+no-nonoctal-decimal-escape;are;What;What
+no-nonoctal-decimal-escape;specified;What;What
+no-nonoctal-decimal-escape;as;What;What
+no-nonoctal-decimal-escape;non-octal;What;What
+no-nonoctal-decimal-escape;decimal;What;What
+no-nonoctal-decimal-escape;escape;What;What
+no-nonoctal-decimal-escape;sequences;What;What
+no-nonoctal-decimal-escape;retaining;What;What
+no-nonoctal-decimal-escape;the;What;What
+no-nonoctal-decimal-escape;same;What;What
+no-nonoctal-decimal-escape;behavior.;What;What
+no-nonoctal-decimal-escape;Nevertheless,;Why;Why
+no-nonoctal-decimal-escape;the;Why;Why
+no-nonoctal-decimal-escape;ECMAScript;Why;Why
+no-nonoctal-decimal-escape;specification;Why;Why
+no-nonoctal-decimal-escape;treats;Why;Why
+no-nonoctal-decimal-escape;\8;Why;Why
+no-nonoctal-decimal-escape;and;Why;Why
+no-nonoctal-decimal-escape;\9;Why;Why
+no-nonoctal-decimal-escape;in;Why;Why
+no-nonoctal-decimal-escape;string;Why;Why
+no-nonoctal-decimal-escape;literals;Why;Why
+no-nonoctal-decimal-escape;as;Why;Why
+no-nonoctal-decimal-escape;a;Why;Why
+no-nonoctal-decimal-escape;legacy;Why;Why
+no-nonoctal-decimal-escape;feature.;Why;Why
+no-nonoctal-decimal-escape;This;Why;Why
+no-nonoctal-decimal-escape;syntax;Why;Why
+no-nonoctal-decimal-escape;is;Why;Why
+no-nonoctal-decimal-escape;optional;Why;Why
+no-nonoctal-decimal-escape;if;Why;Why
+no-nonoctal-decimal-escape;the;Why;Why
+no-nonoctal-decimal-escape;ECMAScript;Why;Why
+no-nonoctal-decimal-escape;host;Why;Why
+no-nonoctal-decimal-escape;is;Why;Why
+no-nonoctal-decimal-escape;not;Why;Why
+no-nonoctal-decimal-escape;a;Why;Why
+no-nonoctal-decimal-escape;web;Why;Why
+no-nonoctal-decimal-escape;browser.;Why;Why
+no-nonoctal-decimal-escape;Browsers;Why;Why
+no-nonoctal-decimal-escape;still;Why;Why
+no-nonoctal-decimal-escape;have;Why;Why
+no-nonoctal-decimal-escape;to;Why;Why
+no-nonoctal-decimal-escape;support;Why;Why
+no-nonoctal-decimal-escape;it,;Why;Why
+no-nonoctal-decimal-escape;but;Why;Why
+no-nonoctal-decimal-escape;only;Why;Why
+no-nonoctal-decimal-escape;in;Why;Why
+no-nonoctal-decimal-escape;non-strict;Why;Why
+no-nonoctal-decimal-escape;mode.;Why;Why
+no-nonoctal-decimal-escape;Regardless;Why;Fix
+no-nonoctal-decimal-escape;of;Why;Fix
+no-nonoctal-decimal-escape;your;Why;Fix
+no-nonoctal-decimal-escape;targeted;Why;Fix
+no-nonoctal-decimal-escape;environment,;Why;Fix
+no-nonoctal-decimal-escape;these;Why;Fix
+no-nonoctal-decimal-escape;escape;Why;Fix
+no-nonoctal-decimal-escape;sequences;Why;Fix
+no-nonoctal-decimal-escape;shouldn’t;Why;Fix
+no-nonoctal-decimal-escape;be;Why;Fix
+no-nonoctal-decimal-escape;used;Why;Fix
+no-nonoctal-decimal-escape;when;Why;Fix
+no-nonoctal-decimal-escape;writing;Why;Fix
+no-nonoctal-decimal-escape;new;Why;Fix
+no-nonoctal-decimal-escape;code.;Why;Fix
+no-nonoctal-decimal-escape;This;What;Fix
+no-nonoctal-decimal-escape;rule;What;Fix
+no-nonoctal-decimal-escape;disallows;What;Fix
+no-nonoctal-decimal-escape;\8;What;What
+no-nonoctal-decimal-escape;and;What;What
+no-nonoctal-decimal-escape;\9;What;What
+no-nonoctal-decimal-escape;escape;What;What
+no-nonoctal-decimal-escape;sequences;What;What
+no-nonoctal-decimal-escape;in;What;What
+no-nonoctal-decimal-escape;string;What;What
+no-nonoctal-decimal-escape;literals.;What;What
+CompareWithEmptyStringEfficientlyRule;This;What;What
+CompareWithEmptyStringEfficientlyRule;rule;What;What
+CompareWithEmptyStringEfficientlyRule;will;What;What
+CompareWithEmptyStringEfficientlyRule;fire;What;What
+CompareWithEmptyStringEfficientlyRule;if;What;What
+CompareWithEmptyStringEfficientlyRule;a;What;What
+CompareWithEmptyStringEfficientlyRule;string;What;What
+CompareWithEmptyStringEfficientlyRule;is;What;What
+CompareWithEmptyStringEfficientlyRule;compared;What;What
+CompareWithEmptyStringEfficientlyRule;to;What;What
+CompareWithEmptyStringEfficientlyRule;”“;What;What
+CompareWithEmptyStringEfficientlyRule;or;What;What
+CompareWithEmptyStringEfficientlyRule;String.Empty.;What;What
+CompareWithEmptyStringEfficientlyRule;Instead;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;use;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;a;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;String.Length;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;test;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;which;Why;Why
+CompareWithEmptyStringEfficientlyRule;should;Why;Why
+CompareWithEmptyStringEfficientlyRule;be;Why;Why
+CompareWithEmptyStringEfficientlyRule;a;Why;Why
+CompareWithEmptyStringEfficientlyRule;bit;Why;Why
+CompareWithEmptyStringEfficientlyRule;faster.;Why;Why
+CompareWithEmptyStringEfficientlyRule;Another;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;possibility;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;(with;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;.NET;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;2.0);Fix;Fix
+CompareWithEmptyStringEfficientlyRule;is;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;to;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;use;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;the;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;static;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;String.IsNullOrEmpty;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;method.;Fix;Fix
+CompareWithEmptyStringEfficientlyRule;String.IsNullOrEmpty.;Fix;Fix
+Accessing Android external storage is security-sensitive;Storing;What;What
+Accessing Android external storage is security-sensitive;data;What;What
+Accessing Android external storage is security-sensitive;locally;What;What
+Accessing Android external storage is security-sensitive;is;What;What
+Accessing Android external storage is security-sensitive;a;What;What
+Accessing Android external storage is security-sensitive;common;What;What
+Accessing Android external storage is security-sensitive;task;What;What
+Accessing Android external storage is security-sensitive;for;What;What
+Accessing Android external storage is security-sensitive;mobile;What;What
+Accessing Android external storage is security-sensitive;applications.;What;What
+Accessing Android external storage is security-sensitive;Such;What;What
+Accessing Android external storage is security-sensitive;data;What;What
+Accessing Android external storage is security-sensitive;includes;What;What
+Accessing Android external storage is security-sensitive;files;What;What
+Accessing Android external storage is security-sensitive;among;What;What
+Accessing Android external storage is security-sensitive;other;What;What
+Accessing Android external storage is security-sensitive;things.;What;What
+Accessing Android external storage is security-sensitive;One;What;What
+Accessing Android external storage is security-sensitive;convenient;What;What
+Accessing Android external storage is security-sensitive;way;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;store;What;What
+Accessing Android external storage is security-sensitive;files;What;What
+Accessing Android external storage is security-sensitive;is;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;use;What;What
+Accessing Android external storage is security-sensitive;the;What;What
+Accessing Android external storage is security-sensitive;external;What;What
+Accessing Android external storage is security-sensitive;8le;What;What
+Accessing Android external storage is security-sensitive;storage;What;What
+Accessing Android external storage is security-sensitive;which;What;What
+Accessing Android external storage is security-sensitive;usually;What;What
+Accessing Android external storage is security-sensitive;offers;What;What
+Accessing Android external storage is security-sensitive;a;What;What
+Accessing Android external storage is security-sensitive;larger;What;What
+Accessing Android external storage is security-sensitive;amount;What;What
+Accessing Android external storage is security-sensitive;of;What;What
+Accessing Android external storage is security-sensitive;disc;What;What
+Accessing Android external storage is security-sensitive;space;What;What
+Accessing Android external storage is security-sensitive;compared;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;internal;What;What
+Accessing Android external storage is security-sensitive;storage.;What;What
+Accessing Android external storage is security-sensitive;Files;What;Why
+Accessing Android external storage is security-sensitive;created;What;Why
+Accessing Android external storage is security-sensitive;on;What;Why
+Accessing Android external storage is security-sensitive;the;What;Why
+Accessing Android external storage is security-sensitive;external;What;Why
+Accessing Android external storage is security-sensitive;storage;What;Why
+Accessing Android external storage is security-sensitive;are;What;Why
+Accessing Android external storage is security-sensitive;globally;What;Why
+Accessing Android external storage is security-sensitive;readable;What;Why
+Accessing Android external storage is security-sensitive;and;What;Why
+Accessing Android external storage is security-sensitive;writable.;What;Why
+Accessing Android external storage is security-sensitive;Therefore,;Why;Why
+Accessing Android external storage is security-sensitive;a;Why;Why
+Accessing Android external storage is security-sensitive;malicious;Why;Why
+Accessing Android external storage is security-sensitive;application;Why;Why
+Accessing Android external storage is security-sensitive;having;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;permissions;Why;Why
+Accessing Android external storage is security-sensitive;WRITE_EXTERNAL_STORAGE;Why;Why
+Accessing Android external storage is security-sensitive;or;Why;Why
+Accessing Android external storage is security-sensitive;READ_EXTERNAL_STORAGE;Why;Why
+Accessing Android external storage is security-sensitive;could;Why;Why
+Accessing Android external storage is security-sensitive;try;Why;Why
+Accessing Android external storage is security-sensitive;to;Why;Why
+Accessing Android external storage is security-sensitive;read;Why;Why
+Accessing Android external storage is security-sensitive;sensitive;Why;Why
+Accessing Android external storage is security-sensitive;information;Why;Why
+Accessing Android external storage is security-sensitive;from;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;files;Why;Why
+Accessing Android external storage is security-sensitive;that;Why;Why
+Accessing Android external storage is security-sensitive;other;Why;Why
+Accessing Android external storage is security-sensitive;applications;Why;Why
+Accessing Android external storage is security-sensitive;have;Why;Why
+Accessing Android external storage is security-sensitive;stored;Why;Why
+Accessing Android external storage is security-sensitive;on;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;external;Why;Why
+Accessing Android external storage is security-sensitive;storage.;Why;Why
+Accessing Android external storage is security-sensitive;External;Why;Why
+Accessing Android external storage is security-sensitive;storage;Why;Why
+Accessing Android external storage is security-sensitive;can;Why;Why
+Accessing Android external storage is security-sensitive;also;Why;Why
+Accessing Android external storage is security-sensitive;be;Why;Why
+Accessing Android external storage is security-sensitive;removed;Why;Why
+Accessing Android external storage is security-sensitive;by;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;user;Why;Why
+Accessing Android external storage is security-sensitive;(e.g;Why;Why
+Accessing Android external storage is security-sensitive;when;Why;Why
+Accessing Android external storage is security-sensitive;based;Why;Why
+Accessing Android external storage is security-sensitive;on;Why;Why
+Accessing Android external storage is security-sensitive;SD;Why;Why
+Accessing Android external storage is security-sensitive;card);Why;Why
+Accessing Android external storage is security-sensitive;making;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;files;Why;Why
+Accessing Android external storage is security-sensitive;unavailable;Why;Why
+Accessing Android external storage is security-sensitive;to;Why;Why
+Accessing Android external storage is security-sensitive;the;Why;Why
+Accessing Android external storage is security-sensitive;application.;Why;Why
+Accessing Android external storage is security-sensitive;Your;What;What
+Accessing Android external storage is security-sensitive;application;What;What
+Accessing Android external storage is security-sensitive;uses;What;What
+Accessing Android external storage is security-sensitive;external;What;What
+Accessing Android external storage is security-sensitive;storage;What;What
+Accessing Android external storage is security-sensitive;to:;What;What
+Accessing Android external storage is security-sensitive;store;What;What
+Accessing Android external storage is security-sensitive;files;What;What
+Accessing Android external storage is security-sensitive;that;What;What
+Accessing Android external storage is security-sensitive;contain;What;What
+Accessing Android external storage is security-sensitive;sensitive;What;What
+Accessing Android external storage is security-sensitive;data.;What;What
+Accessing Android external storage is security-sensitive;store;What;What
+Accessing Android external storage is security-sensitive;files;What;What
+Accessing Android external storage is security-sensitive;that;What;What
+Accessing Android external storage is security-sensitive;are;What;What
+Accessing Android external storage is security-sensitive;not;What;What
+Accessing Android external storage is security-sensitive;meant;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;be;What;What
+Accessing Android external storage is security-sensitive;shared;What;What
+Accessing Android external storage is security-sensitive;with;What;What
+Accessing Android external storage is security-sensitive;other;What;What
+Accessing Android external storage is security-sensitive;application.;What;What
+Accessing Android external storage is security-sensitive;store;What;What
+Accessing Android external storage is security-sensitive;files;What;What
+Accessing Android external storage is security-sensitive;that;What;What
+Accessing Android external storage is security-sensitive;are;What;What
+Accessing Android external storage is security-sensitive;critical;What;What
+Accessing Android external storage is security-sensitive;for;What;What
+Accessing Android external storage is security-sensitive;the;What;What
+Accessing Android external storage is security-sensitive;application;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;work.;What;What
+Accessing Android external storage is security-sensitive;There;What;What
+Accessing Android external storage is security-sensitive;is;What;What
+Accessing Android external storage is security-sensitive;a;What;What
+Accessing Android external storage is security-sensitive;risk;What;What
+Accessing Android external storage is security-sensitive;if;What;What
+Accessing Android external storage is security-sensitive;you;What;What
+Accessing Android external storage is security-sensitive;answered;What;What
+Accessing Android external storage is security-sensitive;yes;What;What
+Accessing Android external storage is security-sensitive;to;What;What
+Accessing Android external storage is security-sensitive;any;What;What
+Accessing Android external storage is security-sensitive;of;What;What
+Accessing Android external storage is security-sensitive;those;What;What
+Accessing Android external storage is security-sensitive;questions.;What;What
+Accessing Android external storage is security-sensitive;Use;Fix;Fix
+Accessing Android external storage is security-sensitive;internal;Fix;Fix
+Accessing Android external storage is security-sensitive;storage;Fix;Fix
+Accessing Android external storage is security-sensitive;whenever;Fix;Fix
+Accessing Android external storage is security-sensitive;possible;Fix;Fix
+Accessing Android external storage is security-sensitive;as;Fix;Why
+Accessing Android external storage is security-sensitive;the;Fix;Why
+Accessing Android external storage is security-sensitive;system;Fix;Why
+Accessing Android external storage is security-sensitive;prevents;Fix;Why
+Accessing Android external storage is security-sensitive;other;Fix;Why
+Accessing Android external storage is security-sensitive;apps;Fix;Why
+Accessing Android external storage is security-sensitive;from;Fix;Why
+Accessing Android external storage is security-sensitive;accessing;Fix;Why
+Accessing Android external storage is security-sensitive;this;Fix;Why
+Accessing Android external storage is security-sensitive;location.;Fix;Why
+Accessing Android external storage is security-sensitive;Only;Fix;Fix
+Accessing Android external storage is security-sensitive;use;Fix;Fix
+Accessing Android external storage is security-sensitive;external;Fix;Fix
+Accessing Android external storage is security-sensitive;storage;Fix;Fix
+Accessing Android external storage is security-sensitive;if;Fix;Fix
+Accessing Android external storage is security-sensitive;you;Fix;Fix
+Accessing Android external storage is security-sensitive;need;Fix;Fix
+Accessing Android external storage is security-sensitive;to;Fix;Fix
+Accessing Android external storage is security-sensitive;share;Fix;Fix
+Accessing Android external storage is security-sensitive;non-sensitive;Fix;Fix
+Accessing Android external storage is security-sensitive;files;Fix;Fix
+Accessing Android external storage is security-sensitive;with;Fix;Fix
+Accessing Android external storage is security-sensitive;other;Fix;Fix
+Accessing Android external storage is security-sensitive;applications.;Fix;Fix
+Accessing Android external storage is security-sensitive;If;Fix;What
+Accessing Android external storage is security-sensitive;your;Fix;What
+Accessing Android external storage is security-sensitive;application;Fix;What
+Accessing Android external storage is security-sensitive;has;Fix;What
+Accessing Android external storage is security-sensitive;to;Fix;What
+Accessing Android external storage is security-sensitive;use;Fix;What
+Accessing Android external storage is security-sensitive;the;Fix;What
+Accessing Android external storage is security-sensitive;external;Fix;What
+Accessing Android external storage is security-sensitive;storage;Fix;What
+Accessing Android external storage is security-sensitive;to;Fix;What
+Accessing Android external storage is security-sensitive;store;Fix;What
+Accessing Android external storage is security-sensitive;sensitive;Fix;What
+Accessing Android external storage is security-sensitive;data,;Fix;What
+Accessing Android external storage is security-sensitive;make;Fix;Fix
+Accessing Android external storage is security-sensitive;sure;Fix;Fix
+Accessing Android external storage is security-sensitive;it;Fix;Fix
+Accessing Android external storage is security-sensitive;encrypts;Fix;Fix
+Accessing Android external storage is security-sensitive;the;Fix;Fix
+Accessing Android external storage is security-sensitive;files;Fix;Fix
+Accessing Android external storage is security-sensitive;using.;Fix;Fix
+Accessing Android external storage is security-sensitive;Data;Fix;Fix
+Accessing Android external storage is security-sensitive;coming;Fix;Fix
+Accessing Android external storage is security-sensitive;from;Fix;Fix
+Accessing Android external storage is security-sensitive;external;Fix;Fix
+Accessing Android external storage is security-sensitive;storage;Fix;Fix
+Accessing Android external storage is security-sensitive;should;Fix;Fix
+Accessing Android external storage is security-sensitive;always;Fix;Fix
+Accessing Android external storage is security-sensitive;be;Fix;Fix
+Accessing Android external storage is security-sensitive;considered;Fix;Fix
+Accessing Android external storage is security-sensitive;untrusted;Fix;Fix
+Accessing Android external storage is security-sensitive;and;Fix;Fix
+Accessing Android external storage is security-sensitive;should;Fix;Fix
+Accessing Android external storage is security-sensitive;be;Fix;Fix
+Accessing Android external storage is security-sensitive;validated.;Fix;Fix
+Accessing Android external storage is security-sensitive;As;Fix;Why
+Accessing Android external storage is security-sensitive;some;Fix;Why
+Accessing Android external storage is security-sensitive;external;Fix;Why
+Accessing Android external storage is security-sensitive;storage;Fix;Why
+Accessing Android external storage is security-sensitive;can;Fix;Why
+Accessing Android external storage is security-sensitive;be;Fix;Why
+Accessing Android external storage is security-sensitive;removed,;Fix;Why
+Accessing Android external storage is security-sensitive;make;Fix;Fix
+Accessing Android external storage is security-sensitive;sure;Fix;Fix
+Accessing Android external storage is security-sensitive;to;Fix;Fix
+Accessing Android external storage is security-sensitive;never;Fix;Fix
+Accessing Android external storage is security-sensitive;store;Fix;Fix
+Accessing Android external storage is security-sensitive;files;Fix;Fix
+Accessing Android external storage is security-sensitive;on;Fix;Fix
+Accessing Android external storage is security-sensitive;it;Fix;Fix
+Accessing Android external storage is security-sensitive;that;Fix;Fix
+Accessing Android external storage is security-sensitive;are;Fix;Fix
+Accessing Android external storage is security-sensitive;critical;Fix;Fix
+Accessing Android external storage is security-sensitive;for;Fix;Fix
+Accessing Android external storage is security-sensitive;the;Fix;Fix
+Accessing Android external storage is security-sensitive;usability;Fix;Fix
+Accessing Android external storage is security-sensitive;of;Fix;Fix
+Accessing Android external storage is security-sensitive;your;Fix;Fix
+Accessing Android external storage is security-sensitive;application.;Fix;Fix

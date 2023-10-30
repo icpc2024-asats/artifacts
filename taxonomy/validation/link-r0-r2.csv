@@ -1,0 +1,6 @@
+rule;link;r0;r2
+MultipleVariableDeclarations;the Java code conventions chapter 6.1;Why;Why
+Function is too complex;https://en.wikipedia.org/wiki/Cyclomatic_complexity;"What, Why";Why
+double-epsilon-equality;Source for rule;What;
+double-epsilon-equality;https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-6.0#testing-for-equality;"What, Why, Fix";"What, Why, Fix"
+double-epsilon-equality;https://docs.microsoft.com/en-us/dotnet/api/system.double.epsilon?view=net-6.0#platform-notes;"What, Why";Fix

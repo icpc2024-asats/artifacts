@@ -1,0 +1,7 @@
+
+rule;snippet;r0;r2
+MultipleVariableDeclarations;S1;"What, Fix";"What, Fix"
+Function is too complex;S1;What;What
+Function is too complex;S2;Fix;Fix
+no_short_bool_cast;S1;"What, Fix";"What, Fix"
+double-epsilon-equality;S1;"What, Fix";What

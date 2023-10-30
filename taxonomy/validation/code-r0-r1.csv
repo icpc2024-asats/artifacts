@@ -1,0 +1,9 @@
+rule;snippet;r0;r1
+SQL Injection;S1;What;What
+SQL Injection;S2;Fix;Fix
+SQL Injection;S3;What;What
+ForLoopShouldBeWhileLoop;S1;What;What
+consider-using-generator;S1;What;What
+consider-using-generator;S2;Fix;Fix
+JWT should be signed and verified with strong cipher algorithms;S1;What;What
+JWT should be signed and verified with strong cipher algorithms;S2;Fix;Fix

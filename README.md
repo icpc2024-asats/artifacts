@@ -1,1 +1,1 @@
-# SANER2024 Submission 191 Artifacts
+# ICPC 2024 - What’s this warning? A study of ASAT rules documentation - Artifacts

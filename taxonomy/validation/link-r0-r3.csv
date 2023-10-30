@@ -1,0 +1,11 @@
+rule;link;r0;r3
+no-nonoctal-decimal-escape;non-octal decimal escape sequences;What;
+no-nonoctal-decimal-escape;ECMAScript® 2023 Language Specification;What;
+Accessing Android external storage is security-sensitive;EncryptedFile;Fix;Fix
+Accessing Android external storage is security-sensitive;OWASP Top 10 2021 Category A4 - Insecure Design;"What, Why";
+Accessing Android external storage is security-sensitive;Android Security tips on external file storage;"What, Fix";"What, Fix"
+Accessing Android external storage is security-sensitive;Mobile AppSec Veri8cation Standard - Data Storage and Privacy Requirements;"What, Why";Fix
+Accessing Android external storage is security-sensitive;OWASP Mobile Top 10 2016 Category M2 - Insecure Data Storage;"What, Why";What
+Accessing Android external storage is security-sensitive;"MITRE; CWE-312 - Cleartext Storage of Sensitive Information";"What, Why";What
+Accessing Android external storage is security-sensitive;SANS Top 25 - Risky Resource Management;"What, Why";
+Accessing Android external storage is security-sensitive;SANS Top 25 - Porous Defenses;"What, Why";

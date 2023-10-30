@@ -1,0 +1,186 @@
+rule;token;r0;r2
+MultipleVariableDeclarations;Checks;What;What
+MultipleVariableDeclarations;that;What;What
+MultipleVariableDeclarations;each;What;What
+MultipleVariableDeclarations;variable;What;What
+MultipleVariableDeclarations;declaration;What;What
+MultipleVariableDeclarations;is;What;What
+MultipleVariableDeclarations;in;What;What
+MultipleVariableDeclarations;its;What;What
+MultipleVariableDeclarations;own;What;What
+MultipleVariableDeclarations;statement;What;What
+MultipleVariableDeclarations;and;What;What
+MultipleVariableDeclarations;on;What;What
+MultipleVariableDeclarations;its;What;What
+MultipleVariableDeclarations;own;What;What
+MultipleVariableDeclarations;line.;What;What
+MultipleVariableDeclarations;Rationale:;Why;Why
+MultipleVariableDeclarations;recommends;Why;Why
+MultipleVariableDeclarations;that;Why;Why
+MultipleVariableDeclarations;declarations;Why;Why
+MultipleVariableDeclarations;should;Why;Why
+MultipleVariableDeclarations;be;Why;Why
+MultipleVariableDeclarations;one;Why;Why
+MultipleVariableDeclarations;per;Why;Why
+MultipleVariableDeclarations;line/statement.;Why;Why
+Function is too complex;Functions;What;What
+Function is too complex;that;What;What
+Function is too complex;are;What;What
+Function is too complex;deemed;What;What
+Function is too complex;too;What;What
+Function is too complex;complex;What;What
+Function is too complex;are;What;What
+Function is too complex;functions;What;What
+Function is too complex;that;What;What
+Function is too complex;have;What;What
+Function is too complex;too;What;What
+Function is too complex;much;What;What
+Function is too complex;branching;What;What
+Function is too complex;logic.;What;What
+Function is too complex;Branching;What;What
+Function is too complex;logic;What;What
+Function is too complex;includes;What;What
+Function is too complex;if;What;What
+Function is too complex;/;What;What
+Function is too complex;elif;What;What
+Function is too complex;/;What;What
+Function is too complex;else;What;What
+Function is too complex;and;What;What
+Function is too complex;for;What;What
+Function is too complex;/;What;What
+Function is too complex;while;What;What
+Function is too complex;loops.;What;What
+Function is too complex;The;What;What
+Function is too complex;following;What;What
+Function is too complex;example;What;What
+Function is too complex;has;What;What
+Function is too complex;a;What;What
+Function is too complex;complexity;What;What
+Function is too complex;score;What;What
+Function is too complex;of;What;What
+Function is too complex;5;What;What
+Function is too complex;because;What;What
+Function is too complex;there;What;What
+Function is too complex;are;What;What
+Function is too complex;five;What;What
+Function is too complex;potential;What;What
+Function is too complex;branches.;What;What
+Function is too complex;To;Fix;Fix
+Function is too complex;reduce;Fix;Fix
+Function is too complex;the;Fix;Fix
+Function is too complex;complexity;Fix;Fix
+Function is too complex;of;Fix;Fix
+Function is too complex;a;Fix;Fix
+Function is too complex;function;Fix;Fix
+Function is too complex;you;Fix;Fix
+Function is too complex;should;Fix;Fix
+Function is too complex;make;Fix;Fix
+Function is too complex;the;Fix;Fix
+Function is too complex;function;Fix;Fix
+Function is too complex;do;Fix;Fix
+Function is too complex;less.;Fix;Fix
+Function is too complex;In;Fix;Fix
+Function is too complex;the;Fix;Fix
+Function is too complex;example;Fix;Fix
+Function is too complex;above,;Fix;Fix
+Function is too complex;the;Fix;Fix
+Function is too complex;function;Fix;Fix
+Function is too complex;actually;Fix;Fix
+Function is too complex;does;Fix;Fix
+Function is too complex;two;Fix;Fix
+Function is too complex;things:;Fix;Fix
+Function is too complex;formats;Fix;Fix
+Function is too complex;a;Fix;Fix
+Function is too complex;comment;Fix;Fix
+Function is too complex;and;Fix;Fix
+Function is too complex;posts;Fix;Fix
+Function is too complex;the;Fix;Fix
+Function is too complex;comment.;Fix;Fix
+Function is too complex;Let’s;Fix;Fix
+Function is too complex;split;Fix;Fix
+Function is too complex;that;Fix;Fix
+Function is too complex;up;Fix;Fix
+Function is too complex;into;Fix;Fix
+Function is too complex;two;Fix;Fix
+Function is too complex;specific;Fix;Fix
+Function is too complex;functions;Fix;Fix
+Function is too complex;that;Fix;Fix
+Function is too complex;have;Fix;Fix
+Function is too complex;only;Fix;Fix
+Function is too complex;one;Fix;Fix
+Function is too complex;task;Fix;Fix
+Function is too complex;each.;Fix;Fix
+Function is too complex;These;Fix;Fix
+Function is too complex;two;Fix;Fix
+Function is too complex;functions;Fix;Fix
+Function is too complex;now;Fix;Fix
+Function is too complex;have;Fix;Fix
+Function is too complex;a;Fix;Fix
+Function is too complex;complexity;Fix;Fix
+Function is too complex;of;Fix;Fix
+Function is too complex;1.;Fix;Fix
+no_short_bool_cast;Short;What;What
+no_short_bool_cast;cast;What;What
+no_short_bool_cast;bool;What;What
+no_short_bool_cast;using;What;What
+no_short_bool_cast;double;What;What
+no_short_bool_cast;exclamation;What;What
+no_short_bool_cast;mark;What;What
+no_short_bool_cast;should;What;What
+no_short_bool_cast;not;What;What
+no_short_bool_cast;be;What;What
+no_short_bool_cast;used.;What;What
+double-epsilon-equality;Double.Epsilon;What;What
+double-epsilon-equality;is;What;What
+double-epsilon-equality;defined;What;What
+double-epsilon-equality;by;What;What
+double-epsilon-equality;.NET;What;What
+double-epsilon-equality;as;What;What
+double-epsilon-equality;the;What;What
+double-epsilon-equality;smallest;What;What
+double-epsilon-equality;value;What;What
+double-epsilon-equality;that;What;What
+double-epsilon-equality;can;What;What
+double-epsilon-equality;be;What;What
+double-epsilon-equality;added;What;What
+double-epsilon-equality;to;What;What
+double-epsilon-equality;or;What;What
+double-epsilon-equality;subtracted;What;What
+double-epsilon-equality;from;What;What
+double-epsilon-equality;a;What;What
+double-epsilon-equality;zero-value;What;What
+double-epsilon-equality;Double.;What;What
+double-epsilon-equality;It;Why;Why
+double-epsilon-equality;is;Why;Why
+double-epsilon-equality;unsuitable;Why;Why
+double-epsilon-equality;for;Why;Why
+double-epsilon-equality;equality;Why;Why
+double-epsilon-equality;comparisons;Why;Why
+double-epsilon-equality;of;Why;Why
+double-epsilon-equality;non-zero;Why;Why
+double-epsilon-equality;Double;Why;Why
+double-epsilon-equality;values.;Why;Why
+double-epsilon-equality;Furthermore,;Why;Why
+double-epsilon-equality;the;Why;Why
+double-epsilon-equality;value;Why;Why
+double-epsilon-equality;of;Why;Why
+double-epsilon-equality;Double.Epsilon;Why;Why
+double-epsilon-equality;is;Why;Why
+double-epsilon-equality;framework;Why;Why
+double-epsilon-equality;and;Why;Why
+double-epsilon-equality;processor;Why;Why
+double-epsilon-equality;architecture;Why;Why
+double-epsilon-equality;dependent.;Why;Why
+double-epsilon-equality;Wherever;Fix;Fix
+double-epsilon-equality;possible,;Fix;Fix
+double-epsilon-equality;developers;Fix;Fix
+double-epsilon-equality;should;Fix;Fix
+double-epsilon-equality;prefer;Fix;Fix
+double-epsilon-equality;the;Fix;Fix
+double-epsilon-equality;framework;Fix;Fix
+double-epsilon-equality;Equals();Fix;Fix
+double-epsilon-equality;method;Fix;Fix
+double-epsilon-equality;over;Fix;Fix
+double-epsilon-equality;custom;Fix;Fix
+double-epsilon-equality;equality;Fix;Fix
+double-epsilon-equality;implementations.;Fix;Fix
