@@ -1,1 +1,1 @@
-# ICPC 2024 - What’s this warning? A study of ASAT rules documentation - Artifacts
+# ICPC 2024 - What the Fix? A Study of ASATs Rule Documentation - Artifacts
